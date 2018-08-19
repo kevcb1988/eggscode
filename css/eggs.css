@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* EGGS GENERALES */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #343a40; }
+
+nav {
+  background: #fff;
+  color: #343a40; }
+
+nav .brand-logo {
+  font-size: 1.3em;
+  color: #343a40; }
+
+nav .nav-wrapper a {
+  color: #343a40; }
+
+.egg-row {
+  min-height: 90vh;
+  padding: 0;
+  margin: 0; }
+
+.egg-banner-1 {
+  margin-top: -64px; }
+
+.egg-title {
+  font-size: 6em;
+  text-align: center; }
+
+.egg-subTitle {
+  font-size: 0.9em;
+  margin: 20px 0 0 0;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.egg-code {
+  color: #ffc107;
+  fontt-weigth: normal; }
+
+.egg-btn {
+  border-radius: 0;
+  margin: 25px 5px;
+  font-size: 0.9em;
+  text-transform: none;
+  border: 1px solid #757575; }
+
+.egg-btn:hover {
+  background: #424242;
+  color: #fff; }
+
+/* MEDIA QUERIES */
+@media (max-width: 575.98px) {
+  .egg-banner-1 {
+    width: 90%; }
+
+  .egg-title {
+    font-size: 5em; }
+
+  .egg-subTitle {
+    width: 90%;
+    margin: 0px auto 25px auto; }
+
+  .egg-btn {
+    width: 80%;
+    margin: 10px 0 0 0; } }
+
+/*# sourceMappingURL=eggs.css.map */

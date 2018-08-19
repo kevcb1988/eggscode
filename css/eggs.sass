@@ -1,0 +1,84 @@
+$colorPrincipal: #343a40
+$colorSecundario: #ffc107
+$textoPrincipal: 'Open Sans', sans-serif
+$texttoSecundario: 'Shadows Into Light Two', cursive
+
+
+*
+    padding: 0
+    margin: 0
+
+html 
+    box-sizing: border-box
+
+*, *:before, *:after
+    box-sizing: inherit
+
+/* EGGS GENERALES */
+
+body 
+    font-family: $textoPrincipal
+    color: $colorPrincipal
+
+nav
+    background: #fff
+    color: $colorPrincipal
+
+nav .brand-logo
+    font-size: 1.3em
+    color: $colorPrincipal
+
+nav .nav-wrapper a
+    color: $colorPrincipal
+
+.egg-row
+    min-height: 90vh
+    padding: 0
+    margin: 0
+
+.egg-banner-1
+    margin-top: -64px
+
+.egg-title
+    font-size: 6em
+    text-align: center
+
+.egg-subTitle
+    font-size: .9em
+    margin: 20px 0 0 0
+    text-transform: uppercase
+    letter-spacing: 1px
+
+.egg-code
+    color: $colorSecundario
+    fontt-weigth: normal
+
+.egg-btn
+    border-radius: 0
+    margin: 25px 5px
+    font-size: .9em
+    text-transform: none
+    border: 1px solid #757575
+
+.egg-btn:hover
+    background: #424242  
+    color: #fff
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 575.98px)
+
+    .egg-banner-1
+        width: 90%
+
+    .egg-title
+        font-size: 5em
+
+    .egg-subTitle
+        width: 90%
+        margin: 0px auto 25px auto
+    
+    .egg-btn
+        width: 80%
+        margin: 10px 0 0 0
